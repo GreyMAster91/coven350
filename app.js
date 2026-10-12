@@ -88,3 +88,15 @@ document.getElementById('form').addEventListener('submit', async e=>{
     document.getElementById('thanks-text').textContent='Жаль, что лучи настигли тебя. Ковен поднимет кубок и в твою честь.';}
   t.scrollIntoView({behavior:'smooth',block:'center'});
 });
+
+// Gold dust
+(function(){
+  const c=document.getElementById('dust'); if(!c) return;
+  if(matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  const x=c.getContext('2d'); let W,H,P=[];
+  function size(){const r=devicePixelRatio||1;W=c.clientWidth;H=c.clientHeight;c.width=W*r;c.height=H*r;x.setTransform(r,0,0,r,0,0);
+    P=Array.from({length:Math.round(W*H/9000)},()=>({x:Math.random()*W,y:Math.random()*H,r:Math.random()*1.4+.3,v:Math.random()*.25+.05,p:Math.random()*6.28}));}
+  function f(){x.clearRect(0,0,W,H);for(const d of P){d.y-=d.v;d.x+=Math.sin(d.p+=.01)*.15;if(d.y<-5){d.y=H+5;d.x=Math.random()*W}
+    const a=.25+.35*Math.sin(d.p*2)**2;x.beginPath();x.arc(d.x,d.y,d.r,0,6.28);x.fillStyle=`rgba(232,200,110,${a})`;x.fill();}requestAnimationFrame(f);}
+  size();addEventListener('resize',size);f();
+})();

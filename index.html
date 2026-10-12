@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>350 лет Графине — Секретный декрет Ковена</title>
 <meta name="description" content="Пятница, 13 ноября, 18:00. Лофт «Мск Плейс». Прими присягу Ковена.">
-<meta name="theme-color" content="#0c0204">
+<meta name="theme-color" content="#050505">
 <meta property="og:type" content="website">
 <meta property="og:title" content="† 350 ЛЕТ ГРАФИНЕ †">
 <meta property="og:description" content="Секретный декрет Ковена. Пятница, 13 ноября // 18:00 // Лофт «Мск Плейс». Твой пропуск, тайминг ночи и подтверждение явки.">
@@ -14,35 +14,33 @@
 <meta property="og:image:height" content="630">
 <meta property="og:locale" content="ru_RU">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦇</text></svg>">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌙</text></svg>">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Ruslan+Display&family=Old+Standard+TT:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<link rel="preload" href="fonts/MasonChronicles.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
 <!-- 1. HERO -->
 <header class="hero" id="top">
-  <div class="satin" aria-hidden="true"></div>
-  <div class="deco" aria-hidden="true">
-    <div class="candle c1"><i></i></div><div class="candle c2"><i></i></div><div class="candle c3"><i></i></div><div class="candle c4"><i></i></div>
-    <img class="rose r1" src="img/rose.svg" alt=""><img class="rose r2" src="img/rose.svg" alt=""><img class="rose r3" src="img/rose.svg" alt=""><img class="rose r4" src="img/rose.svg" alt="">
-  </div>
+  <div class="mist" aria-hidden="true"><i></i><i></i><i></i></div>
+  <canvas class="dust" id="dust" aria-hidden="true"></canvas>
   <div class="invite">
     <span class="fil tl"></span><span class="fil tr"></span><span class="fil bl"></span><span class="fil br"></span>
-    <div class="crest"><img src="img/bat-crest.svg" alt="Герб Ковена"><span class="ribbon">SECRETS OF THE IMMORTALS</span></div>
+    <div class="crest"><img src="img/emblem.svg" alt="Знак Ковена: фазы луны и всевидящее око"><span class="ribbon">SECRETS OF THE IMMORTALS</span></div>
     <div class="arch">
-      <p class="badge">† СЕКРЕТНЫЙ ДЕКРЕТ КОВЕНА †</p>
+      <p class="badge">✦ СЕКРЕТНЫЙ ДЕКРЕТ КОВЕНА ✦</p>
       <h1>«350 ЛЕТ<br>ГРАФИНЕ»</h1>
-      <p class="sub"><em>(официальная версия для смертных — 35)</em></p>
+      <p class="sub"><em>(официальная версия для смертных&nbsp;—&nbsp;35)</em></p>
       <img class="div" src="img/divider.svg" alt="">
       <p class="date">ПЯТНИЦА <b>13</b> НОЯБРЯ</p>
       <p class="time">Сбор гостей: 18:00</p>
       <p class="loc">ЛОФТ «МСК ПЛЕЙС»</p>
       <p class="addr-s">(Ул. Бакунинская, д. 72с2)</p>
       <p class="dc">DRESS CODE: VAMPIRE NOIR</p>
-      <a class="btn" href="#rsvp">Принять присягу</a>
+      <a class="btn" href="#rsvp"><img src="img/keyhole.svg" alt="" class="kh">Принять присягу</a>
     </div>
   </div>
   <div class="scroll-hint" aria-hidden="true">⌄</div>
@@ -123,13 +121,13 @@
     <button class="btn" type="submit" id="submit">Скрепить клятву кровью</button>
   </form>
   <div class="thanks" id="thanks" hidden>
-    <div class="seal">†</div>
+    <div class="seal"><img src="img/keyhole.svg" alt=""></div>
     <h3>Клятва скреплена</h3>
     <p id="thanks-text">Ковен услышал тебя. Врата откроются 13 ноября в 18:00 — до встречи во тьме.</p>
   </div>
 </section>
 </main>
-<footer>† 13.XI.2026 † Ковен помнит всех †</footer>
+<footer>✦ 13.XI.2026 ✦ Ковен помнит всех ✦</footer>
 <script src="app.js"></script>
 </body>
 </html>

@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 200" fill="none" stroke="url(#g)" stroke-width="1.2">
+<defs><linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#f7e7a6"/><stop offset=".45" stop-color="#d4af37"/><stop offset=".7" stop-color="#8a6a1f"/><stop offset="1" stop-color="#f0d77a"/></linearGradient></defs>
+<!-- moon phases -->
+<g fill="url(#g)" stroke="none">
+<circle cx="40" cy="40" r="9" opacity=".25"/><path d="M80 31a9 9 0 1 0 0 18a12 12 0 0 1 0-18z"/><path d="M118 31a9 9 0 0 1 0 18z"/>
+<circle cx="160" cy="40" r="10"/>
+<path d="M202 31a9 9 0 0 0 0 18z"/><path d="M240 31a9 9 0 1 1 0 18a12 12 0 0 0 0-18z"/><circle cx="280" cy="40" r="9" opacity=".25"/></g>
+<circle cx="40" cy="40" r="9"/><circle cx="280" cy="40" r="9"/><circle cx="80" cy="40" r="9" stroke-width=".6"/><circle cx="118" cy="40" r="9" stroke-width=".6"/><circle cx="202" cy="40" r="9" stroke-width=".6"/><circle cx="240" cy="40" r="9" stroke-width=".6"/>
+<path d="M10 40H28 M292 40H310"/>
+<!-- triangle eye -->
+<path d="M160 62 L222 170 H98 Z"/><path d="M160 74 L211 164 H109 Z" stroke-width=".6"/>
+<path d="M124 132 Q160 100 196 132 Q160 162 124 132Z"/>
+<circle cx="160" cy="132" r="13"/><circle cx="160" cy="132" r="5" fill="url(#g)"/>
+<g stroke-width=".6"><path d="M160 92V60 M160 176V196 M120 108L96 90 M200 108L224 90 M108 150L76 158 M212 150L244 158 M136 92L124 66 M184 92L196 66"/></g>
+<!-- stars -->
+<g fill="url(#g)" stroke="none"><path d="M60 110l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/><path d="M260 110l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/><path d="M30 160l1.5 4 4 1.5-4 1.5-1.5 4-1.5-4-4-1.5 4-1.5z"/><path d="M290 160l1.5 4 4 1.5-4 1.5-1.5 4-1.5-4-4-1.5 4-1.5z"/></g>
+</svg>

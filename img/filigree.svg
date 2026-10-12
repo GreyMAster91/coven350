@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="#b3132a" stroke-width="2">
-<path d="M4 116 V40 Q4 4 40 4 H116"/><path d="M12 116 V44 Q12 12 44 12 H116" stroke-width="1"/>
-<path d="M22 70 C22 40 40 22 70 22 M30 60 c0 -18 12 -30 30 -30 c-14 6 -20 16 -16 28 c-8 -6 -14 -4 -14 2z"/>
-<circle cx="22" cy="22" r="7"/><circle cx="22" cy="22" r="2.5" fill="#b3132a"/>
-<path d="M40 40 c10 -2 16 4 14 14 c-6 -4 -12 -2 -14 4 c-4 -8 -4 -14 0 -18z" fill="#6e0a16"/>
-<path d="M60 12 q10 8 20 0 q10 8 20 0 M12 60 q8 10 0 20 q8 10 0 20" stroke-width="1.2"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" fill="none" stroke="#d4af37" stroke-width="1">
+<path d="M2 118V2H118"/><path d="M10 118V10H118" stroke-width=".5"/>
+<path d="M10 40H40V10" /><path d="M18 32H32V18" stroke-width=".5"/><circle cx="10" cy="10" r="4"/><circle cx="10" cy="10" r="1.5" fill="#d4af37"/>
+<path d="M40 40L70 70 M48 40H60 M40 48V60" stroke-width=".5"/>
+<path d="M62 10l2 -6 2 6 6 2 -6 2 -2 6 -2 -6 -6 -2z" fill="#d4af37" stroke="none" transform="translate(16 0)"/>
+<path d="M10 82l2 -6 2 6 6 2 -6 2 -2 6 -2 -6 -6 -2z" fill="#d4af37" stroke="none" transform="translate(-2 0)"/>
 </svg>
