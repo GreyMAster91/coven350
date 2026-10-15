@@ -1,7 +1,7 @@
 /* ===== НАСТРОЙКИ (заполните, см. README.md) ===== */
 const CONFIG = {
-  TG_BOT_TOKEN: '',   // токен бота от @BotFather, например '123456:ABC...'
-  TG_CHAT_ID: '',     // ваш chat id (число) из getUpdates
+  TG_BOT_TOKEN: '8580009500:AAE0QSLFXktSAnKq0kAwNZeo3Pz8_IFs37o',   // токен бота от @BotFather, например '123456:ABC...'
+  TG_CHAT_ID: '-5458944454',     // ваш chat id (число) из getUpdates
   EVENT_START: '2026-11-13T18:00:00+03:00',
   EVENT_END:   '2026-11-14T03:00:00+03:00'
 };
